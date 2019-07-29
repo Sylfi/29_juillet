@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Affiche un potin</title>
+  </head>
+  <body>
+  <h1>PAGE POTIN</h1>
+    Voici le Gossip n° <%= index %>
+      <p>
+      Son auteur : <%= gossips.author %><br/>
+      Le contenu du potin : <%= gossips.content %>
+      </p><br/>
+      <a href='/gossips/<%= index %>/edit'>Modifier le gossip</a>
+
+  </body>
+</html>
